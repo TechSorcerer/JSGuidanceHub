@@ -253,4 +253,334 @@ for (let i = 0; i <= 5; i++) {
 
 <img width="649" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/6439df50-bd65-4711-aa19-22818f08c5b6">
 
+**Метод split()**
+
+<img width="693" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/6b4a3932-6848-42cc-bb57-c8914d200dbf">
+
+**Метод slice()**
+
+<img width="706" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/d5f00875-1f3e-4e68-ace5-e2084d25882f">
+
+**Метод concat()**
+
+<img width="605" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/c9d9b944-ab0f-49a8-a9f6-474750265489">
+
+**Метод indexOf()**
+
+array.indexOf(elem)
+
+<img width="669" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/f1638e7b-1474-46e0-a033-12e2ba9d00a6">
+
+**Метод push()**
+
+<img width="709" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/3c37c0e3-fedb-40a2-994f-d4c7338fd154">
+
+**Метод includes()**
+
+array.includes(element)
+
+<img width="602" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/85b5d694-b360-48d3-a3a1-b197e3a53662">
+
+**Обʼєкти**
+=
+
+**Доступ до властивостей обʼєкта через крапку**
+
+<img width="699" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/b53f9022-1491-495d-bd23-27fee7de6304">
+
+**Доступ до вкладених властивостей**
+
+<img width="662" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/4e61930d-1ef6-425a-833e-38b0a265c9d8">
+
+**Доступ до властивостей через квадратні дужки**
+
+<img width="707" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/d762e524-8f13-4da9-b082-4df4b94caba1">
+
+**Зміна значення властивостей**
+
+<img width="703" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/e6240708-3e8d-4fa4-b7e5-8aadbc3b4f14">
+
+**Додавання властивостей**
+
+<img width="578" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/97aabb6c-0481-466f-a1fe-22353b5d15a3">
+
+**Короткі властивості**
+
+<img width="477" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/b5283a81-2174-45a3-a604-ead4afeb4e91">
+
+**Обчислювальні властивості**
+
+<img width="697" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/e766f504-9898-42ed-a936-6e285b6e1fc9">
+
+**Перебір об'єкта**
+=
+
+**Цикл for...in**
+
+for (key in object) {
+  // інструкції
+}
+
+<img width="669" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/1ca9db37-1121-4ec6-859d-848552d5db81">
+
+**Метод Object.keys()**
+
+<img width="693" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/c2647a0a-b10f-45e0-b167-289a7738403c">
+
+**Метод Object.values()**
+
+<img width="636" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/5966c95e-b26e-428b-b9f4-bf78d97110a4">
+
+**Колбек-функції**
+=
+
+**Метод forEach(callback)**
+
+Метод forEach(callback) — це метод перебирання масиву, який використовується для заміни циклів for і for...of в роботі з колекцією.
+
+array.forEach(function callback(element, index, array) {
+  // Тіло колбек-функції
+});
+
+<img width="583" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/dd6c75c0-9910-42eb-9265-46631fd4afb3">
+
+**Методи map і flatMap**
+=
+
+**Метод map()**
+
+array.map((element, index, array) => {
+  // Тіло колбек-функції
+});
+
+- Поелементно перебирає оригінальний масив
+- Не змінює оригінальний масив
+- Результат роботи колбек-функції записується в новий масив
+- Повертає новий масив такої ж довжини, як і в масиву, до якого він був застосований
+
+<img width="707" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/e613f45d-55fd-4102-b9ad-e2b89c3565ac">
+
+**Метод flatMap()**
+
+Метод flatMap(callback) аналогічний методу map(), але застосовується у випадках, коли результат — це багатовимірний масив, який необхідно «розгладити».
+
+array.flatMap((element, index, array) => {
+  // Тіло колбек-функції
+});
+
+<img width="711" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/083a60ca-152a-4251-9ca3-2418658d52cc">
+
+**Метод filter() на масиві об'єктів**
+
+<img width="695" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/99c89a6c-fad8-4ff6-bd89-0ce178874769">
+
+**Метод find()**
+
+Ти вже знаєш, що метод filter(callback) використовується для пошуку всіх елементів, що задовольняють умову.
+
+Метод find(callback) дозволяє знайти і повернути перший відповідний елемент, що задовольняє умову, після чого перебирання масиву припиняється. Тобто він, на відміну від методу filter(callback), шукає до першого збігу.
+
+<img width="713" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/326a70f6-d900-4ebe-b1d5-fb98254b1fec">
+
+**Метод every()**
+
+array.every((element, index, array) => {
+  // Тіло колбек-функції
+});
+
+- Не змінює оригінальний масив
+- Поелементно перебирає оригінальний масив
+- Повертає true, якщо всі елементи масиву задовольняють умову
+- Повертає false, якщо хоча б один елемент масиву не задовольняє умову
+- Перебирання масиву припиняється, якщо колбек повертає false
+
+<img width="673" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/95cd780a-0199-4869-9885-d5cb72b35403">
+
+**Метод some()**
+
+- Не змінює оригінальний масив
+- Поелементно перебирає оригінальний масив
+- Повертає true, якщо хоча б один елемент масиву задовольняє умову
+- Повертає false, якщо жоден елемент масиву не задовольняє умову
+- Перебирання масиву припиняється, якщо колбек повертає true
+
+<img width="694" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/8b1420c1-d6c7-47ed-ac8d-0f1d56cbfdbf">
+
+**Метод reduce()**
+
+array.reduce((previousValue, element, index, array) => {
+  // Тіло колбек-функції
+}, initialValue);
+
+- Не змінює оригінальний масив
+- Поелементно перебирає оригінальний масив
+- Повертає все, що завгодно (об’єкт, масив, рядок, число тощо)
+- Може замінити функціонал будь-якого іншого перебираючого методу масиву та навіть їх комбінацію
+
+<img width="677" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/1ec35158-b9eb-4d19-b52d-6dfa34eea0c8">
+
+**Метод reduce() і масив об'єктів**
+
+<img width="687" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/3f427056-6003-4c7c-bf88-c579b1f7d7ed">
+
+**Метод toSorted()**
+=
+
+array.toSorted();
+
+- Сортує вихідний масив
+- Повертає новий масив
+- За замовчуванням сортує за зростанням
+
+**Свій порядок сортування чисел**
+
+array.toSorted((a, b) => {
+  // Callback function body
+});
+
+a — перший елемент для порівняння.
+b — другий елемент для порівняння.
+
+*Сортування за зростанням*
+
+<img width="650" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/a32bf198-8a88-4a75-80fd-4047501b896e">
+
+*Сортування за спаданням*
+
+<img width="656" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/a14db28b-4421-4b77-a58c-bb4f2a9e08bc">
+
+**Свій порядок сортування рядків**
+
+firstString.localeCompare(secondString)
+
+Він викликається на рядку, який потрібно порівняти (firstString) з тим, що був переданий йому як аргумент (secondString).
+
+<img width="695" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/01f45372-a3c6-4139-9c8f-08cf800d4001">
+
+**Контекст виконання функції**
+=
+
+**Метод call()**
+
+foo.call(thisArg, arg1, arg2, ...)
+
+- thisArg — об'єкт, який ми хочемо встановити як контекст (значення this) для функції
+- arg1, arg2, ... — необов'язкові аргументи, які будуть передані функції
+
+<img width="640" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/42f29bed-eded-43d3-895d-6b95a9389993">
+
+За допомогою методу call ми можемо викликати функцію greet так, щоб значення this вказувало на потрібний об'єкт і використовувало значення його властивостей.
+
+<img width="712" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/6d2d1af2-0c96-4185-a7c1-4f4e590e8481">
+
+**Метод apply()**
+
+foo.apply(thisArg, [arg1, arg2, ...])
+
+- thisArg — об'єкт, який ми хочемо встановити як контекст (значення this) для функції.
+- arg1, arg2, ... — необов'язкові аргументи, які будуть передані функції.
+
+<img width="715" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/33b83202-99a9-48d1-9c82-f2a427eb287c">
+
+**Метод bind() і втрата контексту**
+
+Методи call і apply викликають функцію «на місці», тобто одразу.
+Метод bind створює і повертає нову функцію, яка має заздалегідь встановлений контекст, і ця нова функція може бути викликана пізніше з будь-якими аргументами.
+
+const boundFoo = foo.bind(thisArg, arg1, arg2, ...)
+
+- thisArg — об'єкт, який ми хочемо встановити як контекст (значення this) для функції
+- arg1, arg2, ... — необов'язкові аргументи, які будуть передані функції при її виклику
+
+<img width="554" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/a2ad3017-b875-46fa-9d15-a1a51cb04d0e">
+
+**Метод bind() і колбеки**
+
+Розглянемо приклад втрати контексту, коли ми передаємо метод об'єкта як колбек-функцію:
+
+<img width="701" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/7274d270-d5bf-41ce-a592-3ebfa3341899">
+
+Щоб уникнути цієї втрати контексту, можна використати метод bind(). Замість передачі оригінального методу getFullName, ми передаємо його копію, до якої прив'язаний контекст об'єкта customer.
+
+<img width="707" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/c5abec6b-08e3-496d-9202-cf4968c71814">
+
+**Алгоритм визначення this**
+=
+
+<img width="777" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/e5f39be9-e5e8-434a-abc3-44ef9eb9e325">
+
+**Прототипи**
+=
+
+**Метод Object.create(obj)**
+
+- створює і повертає новий об'єкт, зв'язуючи його з об'єктом obj.
+
+<img width="693" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/48f5e4bd-9928-4e81-ba94-fa6da203ace9">
+
+**Перевірка прототипу**
+
+objA.isPrototypeOf(objB)
+
+- Метод перевіряє, чи є об'єкт objA прототипом для об’єкта objB
+- Якщо так, повертає true, в іншому разі повертає false
+
+<img width="705" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/8bb83945-3185-4c6a-a1d8-c7ff59abb1c1">
+
+**Власні і невласні властивості**
+
+Для того щоб перевірити, чи є в об'єкті власна властивість, використовується метод obj.hasOwnProperty(key). Цей метод перевіряє наявність власної властивості з ім'ям key і повертає true, якщо є, і false в іншому випадку.
+
+<img width="602" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/73a4a539-c817-4594-85e6-64388068b214">
+
+**Перебір власних властивостей**
+
+Для вибору саме власних властивостей під час перебору циклом for...in необхідно на кожній ітерації додати перевірку на власну властивість методом obj.hasOwnProperty(key). Цей метод повертає true, якщо властивість з іменем key належить об'єкту obj, а не його прототипу, в іншому разі — false. Розгляньмо приклад:
+
+<img width="465" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/00fd7e22-d4ce-4bc6-990a-986c15a05d40">
+
+- Якщо це власна властивість — виконуємо тіло if
+- Якщо це невласна властивість — нічого не робимо
+
+Методи *Object.keys(obj)* і *Object.values(obj)* повертають масив тільки власних ключів або значень тільки власних властивостей об'єкта obj, без необхідності додаткових перевірок. Через це на практиці використовують саме їх із циклом for...of, замість for...in і hasOwnProperty.
+
+<img width="554" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/10e3493f-4139-48d9-89b3-a2ac92b4f5ad">
+
+**Класи**
+=
+
+**Оголошення класу**
+
+Оголошення класу має такий синтаксис:
+
+- ключове слово class
+- ім’я класу (у прикладі: User)
+- тіло класу у фігурних дужках
+
+class User {
+  // Тіло класу
+}
+
+А як створити з класу екземпляр?
+
+<img width="350" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/b550b581-905a-4ca9-b2e1-38cd8d60d1aa">
+
+**Конструктор класу**
+
+Для ініціалізації екземпляра класу використовується метод constructor.
+
+Якщо його не визначити в явному вигляді, то буде створений конструктор за замовчуванням — порожня функція, яка не змінює екземпляр класу.
+
+<img width="449" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/3540f51e-45f7-4d47-8613-eef518b7453b">
+
+**Об'єкт параметрів**
+
+<img width="526" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/e59b8fca-f279-457f-8860-cd9f28abc79a">
+
+**Методи класу**
+
+Методи класу — це функції, які будуть доступні екземпляру в його прототипі. Вони оголошуються в довільному порядку після конструктора. На відміну від синтаксису методів об'єкта (вони розділяються комою), методи класу не розділені жодними спеціальними символами.
+
+<img width="390" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/7fd1fc9f-8852-42f1-9c6e-05a8bc2c2a5c"> <img width="356" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/775c3825-d312-4d80-b3cc-00194f1e3cbf">
+
 
