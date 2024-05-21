@@ -583,4 +583,68 @@ class User {
 
 <img width="390" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/7fd1fc9f-8852-42f1-9c6e-05a8bc2c2a5c"> <img width="356" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/775c3825-d312-4d80-b3cc-00194f1e3cbf">
 
+**Прототип екземпляру**
+
+Методи класу додаються до спеціального об'єкта, який зберігається у властивості prototype самого класу.
+
+<img width="702" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/b784bf36-89ec-49b4-a550-121c385c74bb">
+
+<img width="721" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/4e03c304-3775-421d-a3ac-6ebc8a63f4f1">
+
+**Приватні властивості**
+
+<img width="681" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/60742b03-a07f-431d-86f1-46eee7faf245">
+
+**Приватні методи**
+
+<img width="639" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/559247e6-5085-4aa2-81e6-45e1f993e1e4">
+<img width="698" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/71ebccbd-43c1-4b2f-af28-4fb279f35ca6">
+
+**Геттери і сеттери**
+
+Геттери і сеттери — це спеціальний синтаксис оголошення методів для взаємодії з властивостями. Геттер і сеттер імітують звичайну публічну властивість класу, але дозволяють взаємодіяти з іншими властивостями зручнішим способом.
+
+<img width="440" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/3c7d082f-c37d-44cc-9a15-3671b4386515">
+
+*Геттер і сеттер повинні називатися однаково. 
+Краще називати геттери і сеттери так само, як і властивість, з якою вони працюють. Геттер може існувати без сеттера, так само як і сеттер без геттера.*
+
+*Геттери і сеттери доречно використовувати для простих операцій читання та зміни значення властивостей, особливо приватних, як їх публічний інтерфейс. Для роботи з властивістю, яка зберігає масив або об'єкт, вони не підійдуть.*
+
+**Статичні властивості**
+
+<img width="476" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/4aac9d0e-7e5c-4ee1-9c00-251827ea1b0e">
+
+У екземпляра немає доступу до статичних властивостей класу.
+
+<img width="474" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/dfea50dd-60d9-423f-97d2-203270d43e8b">
+
+**Статичні методи**
+
+<img width="505" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/65b54c25-8029-4f1f-8862-1e223f61ddc5">
+
+*Особливість статичних методів*
+Під час їх виклику ключове слово this посилається на сам клас. Це означає, що статичний метод може отримати доступ до **статичних властивостей класу**, але **не до властивостей екземпляра**. Це логічно, адже статичні методи викликає сам клас, а не його екземпляри.
+
+**Наслідування класів**
+
+Ключове слово extends дозволяє реалізувати наслідування класів, коли один клас (дочірній, похідний) наслідує властивості й методи іншого класу (батьківського).
+
+<img width="350" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/05cd9dee-db91-466d-85f9-837f6c738805">
+
+<img width="778" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/46010907-9786-4242-b875-1af8fa0853ab">
+
+**Конструктор дочірнього класу**
+
+У конструкторі дочірнього класу необхідно викликати спеціальну функцію super(args) — це псевдонім конструктора батьківського класу.
+
+**!!** В іншому випадку при спробі звернутися до this у конструкторі дочірнього класу виникне помилка.
+
+<img width="717" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/3ae309ca-df52-42b5-81c9-afc8b54c1a1f">
+
+**Методи дочірнього класу**
+
+Дочірній клас може використовувати методи та властивості батьківського класу. Крім цього, у дочірньому класі можна оголошувати методи, які будуть доступні тільки його екземплярам.
+
+<img width="703" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/c931ad16-f4fa-4749-9fb8-f4547300dfe7">
 
