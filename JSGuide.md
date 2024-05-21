@@ -245,3 +245,12 @@ console.log(y); // 5
 for (let i = 0; i <= 5; i++) {
   console.log(i);
 }
+
+**Методи масивів**
+=
+
+**Метод join()**
+
+<img width="649" alt="image" src="https://github.com/TechSorcerer/JSGuidanceHub/assets/136632373/6439df50-bd65-4711-aa19-22818f08c5b6">
+
+
